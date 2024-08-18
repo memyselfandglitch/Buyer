@@ -29,7 +29,7 @@ const AllProducts = ({ maxDistance, maxPrice }) => {
                 }
 
                 const responseData = await sendRequest(
-                    `http://localhost:3001/api/products?lat=${lat}&lng=${lng}&dist=${maxDistance}&price=${maxPrice}`
+                    `https://backend-cayg.onrender.com/api/products?lat=${lat}&lng=${lng}&dist=${maxDistance}&price=${maxPrice}`
                 );
                 console.log({ responseData });
 

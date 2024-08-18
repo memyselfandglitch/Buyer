@@ -13,7 +13,7 @@ const Navigation = props => {
         <Navbar className="header-nav" sticky="top" expand="lg">
             <Navbar.Brand href="#home">
                 <img src={logo} alt="Logo" />
-                farmFridge
+                AgriSeva
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

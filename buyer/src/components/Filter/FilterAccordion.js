@@ -33,7 +33,7 @@ const FilterAccordion = ({ lat, lng, onDistanceChange, onPriceChange }) => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get(`http://localhost:3001/api/products?lat=${lat}&lng=${lng}&dist=${distance}`);
+                const response = await axios.get(`https://backend-cayg.onrender.com/api/products?lat=${lat}&lng=${lng}&dist=${distance}`);
                 console.log('Fetched products:', response.data);
                 // Handle the response here or update local state if needed
             } catch (error) {
